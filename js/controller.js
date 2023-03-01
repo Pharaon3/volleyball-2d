@@ -149,10 +149,11 @@ function load() {
   setTimer = 1;
   countdown();
 	connect();
+  toggleViewMode();
 
 	const urlParams = new URLSearchParams(window.location.search);
 	const eventId = Number(urlParams.get('eventId'));
-  document.getElementById('link').setAttribute('href', '../volleyball-2d/index.html?eventId=' + eventId)
+  document.getElementById('link').setAttribute('href', '../volleyball-3d/index.html?eventId=' + eventId)
 }
 
 
