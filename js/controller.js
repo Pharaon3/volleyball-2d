@@ -5,7 +5,7 @@ var gameCount = 1;
 
 var isLimitedCov = false,
   isperiodscore = false;
-
+  var socketLastResponseTime;
 var updated_uts1 = 0,
   updated_uts = 0;
 var currentTime, matchStartDate;
